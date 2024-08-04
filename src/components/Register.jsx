@@ -3,7 +3,7 @@ import Axios from "axios";
 import { useAuth } from "../hooks/useAuth";
 import { useNavigate } from "react-router-dom";
 
-const BACKEND_URL = import.meta.env.VITE_APP_BASE_URL;
+const BACKEND_URL = import.meta.env.VITE_EXPRESS_BASE_URL + ":" + import.meta.env.VITE_EXPRESS_PORT;
 
 export function Register() {
 	const navigate = useNavigate();
