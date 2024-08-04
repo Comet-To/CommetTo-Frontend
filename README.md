@@ -24,9 +24,9 @@ $ npm run dev
 Our Front-End Tech stack: <br>
 
 ```
-• React
-• Javascript
-• Tailwind CSS
+• React 
+• Javascript 
+• Tailwind CSS 
 ```
 
 #### Prerequisites
